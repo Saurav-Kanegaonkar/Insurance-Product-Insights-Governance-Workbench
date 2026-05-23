@@ -1,0 +1,97 @@
+product_id,product,line_of_business,state,channel,earned_premium,combined_ratio,retention_rate,new_business_growth,claims_satisfaction,kpi_quality_score,open_high_quality_checks,priority_score,recommended_action
+PRD072,Commercial Auto,Commercial,CT,Independent Agent,13433833,118.3,73.9,14.0,76.5,71.1,4,145.4,Review agency growth with source mapping
+PRD066,Commercial Auto,Commercial,NY,Independent Agent,15464617,119.7,72.4,1.5,72,82.5,0,117.4,Validate source rules before management action
+PRD092,Commercial Umbrella,Commercial,MD,Independent Agent,2807751,106.0,81.4,15.6,83.9,67.6,4,109.7,Review agency growth with source mapping
+PRD090,Commercial Umbrella,Commercial,NY,Independent Agent,10149238,109.3,76.7,13.1,79.5,74.2,3,107.9,Review agency growth with source mapping
+PRD068,Commercial Auto,Commercial,MD,Independent Agent,21185491,106.8,76.3,7.6,84.4,73.7,3,107.0,Open data governance remediation
+PRD070,Commercial Auto,Commercial,DE,Independent Agent,11089381,103.7,84.3,18.0,84.4,73.3,3,92.8,Review agency growth with source mapping
+PRD067,Commercial Auto,Commercial,MD,Direct,21827235,109.1,76.3,9.3,79.2,76.5,1,88.0,Open data governance remediation
+PRD064,Commercial Auto,Commercial,PA,Independent Agent,28432235,107.6,77.8,20.1,81.5,83.7,0,87.0,Review agency growth with source mapping
+PRD024,Homeowners,Personal,CT,Exclusive Agent,10555666,109.6,87.4,18.0,84.7,75.5,1,85.1,Open data governance remediation
+PRD080,Businessowners Policy,Commercial,MD,Independent Agent,8978023,92.1,83.3,14.2,93.3,66.3,3,83.5,Review agency growth with source mapping
+PRD020,Homeowners,Personal,MD,Exclusive Agent,5779443,111.9,84.9,-1.9,79.4,76.7,2,83.3,Open data governance remediation
+PRD096,Commercial Umbrella,Commercial,CT,Independent Agent,1866465,103.5,80.7,13.7,87.0,76.1,1,82.8,Review agency growth with source mapping
+PRD082,Businessowners Policy,Commercial,DE,Independent Agent,4205490,92.7,80.3,6.0,94.3,68.2,4,79.1,Open data governance remediation
+PRD062,Commercial Auto,Commercial,NJ,Independent Agent,21266592,104.3,81.1,3.9,83.7,78.7,0,76.4,Open data governance remediation
+PRD023,Homeowners,Personal,CT,Direct,3509861,107.2,83.5,1.5,82.6,76.4,1,76.3,Open data governance remediation
+PRD018,Homeowners,Personal,NY,Exclusive Agent,16120837,107.4,82.7,9.2,82.7,78.1,0,75.5,Open data governance remediation
+PRD017,Homeowners,Personal,NY,Direct,19219480,113.8,84.0,6.7,79.4,84.2,0,74.4,Validate source rules before management action
+PRD060,Workers Compensation,Commercial,CT,Independent Agent,25456028,99.5,89.6,16.8,91.8,71.3,2,73.3,Review agency growth with source mapping
+PRD071,Commercial Auto,Commercial,CT,Direct,23734355,103.9,82.7,13.2,86.7,75.6,1,72.6,Open data governance remediation
+PRD065,Commercial Auto,Commercial,NY,Direct,21485146,116.2,78.4,9.5,77.4,93.3,0,70.4,Prepare corrective product recommendation
+PRD015,Homeowners,Personal,PA,Direct,20279645,112.2,85.0,7.9,74.6,84.0,0,69.3,Validate source rules before management action
+PRD019,Homeowners,Personal,MD,Direct,22040582,110.1,87.2,10.6,82.0,83.1,0,67.9,Validate source rules before management action
+PRD069,Commercial Auto,Commercial,DE,Direct,19088665,109.4,80.0,1.9,80.5,82.9,0,67.3,Validate source rules before management action
+PRD021,Homeowners,Personal,DE,Direct,12625436,102.7,85.6,18.1,85.9,78.9,0,65.1,Open data governance remediation
+PRD086,Commercial Umbrella,Commercial,NJ,Independent Agent,6444583,99.8,79.4,4.8,89.8,78.9,1,62.7,Open data governance remediation
+PRD052,Workers Compensation,Commercial,PA,Independent Agent,38496214,98.7,85.8,11.7,92.4,75.8,1,62.2,Review agency growth with source mapping
+PRD022,Homeowners,Personal,DE,Exclusive Agent,9268276,105.0,91.3,7.7,80.9,80.4,0,59.6,Validate source rules before management action
+PRD089,Commercial Umbrella,Commercial,NY,Direct,8236244,106.0,80.9,3.1,81.8,80.3,0,58.1,Validate source rules before management action
+PRD079,Businessowners Policy,Commercial,MD,Direct,21533511,99.6,79.7,11.1,87.1,76.0,0,57.4,Open data governance remediation
+PRD045,Personal Umbrella,Personal,DE,Direct,3576509,75.9,85.6,10.4,93.5,69.3,3,56.9,Open data governance remediation
+PRD084,Businessowners Policy,Commercial,CT,Independent Agent,9020363,98.0,84.2,18.9,94.3,80.4,0,56.9,Review agency growth with source mapping
+PRD061,Commercial Auto,Commercial,NJ,Direct,35889572,110.9,79.0,12.4,80.2,96.1,0,56.8,Prepare corrective product recommendation
+PRD036,Renters,Personal,CT,Exclusive Agent,4100902,86.3,93.5,9.3,91.0,68.8,3,55.7,Open data governance remediation
+PRD063,Commercial Auto,Commercial,PA,Direct,39698357,106.3,83.4,6.1,82.7,85.1,0,53.8,Prepare corrective product recommendation
+PRD078,Businessowners Policy,Commercial,NY,Independent Agent,14402397,96.7,84.0,2.2,89.2,77.1,3,53.4,Open data governance remediation
+PRD088,Commercial Umbrella,Commercial,PA,Independent Agent,5788053,94.2,83.4,1.9,91.9,75.3,0,52.6,Open data governance remediation
+PRD076,Businessowners Policy,Commercial,PA,Independent Agent,9998873,89.1,84.1,5.8,96.0,77.3,2,52.4,Open data governance remediation
+PRD048,Personal Umbrella,Personal,CT,Exclusive Agent,2707586,78.5,86.7,4.8,94.2,70.1,3,52.1,Open data governance remediation
+PRD008,Personal Auto,Personal,MD,Exclusive Agent,30044075,93.6,79.3,16.3,93.2,77.1,0,52.0,Open data governance remediation
+PRD058,Workers Compensation,Commercial,DE,Independent Agent,18017712,90.9,86.5,7.5,95.9,75.5,2,52.0,Open data governance remediation
+PRD094,Commercial Umbrella,Commercial,DE,Independent Agent,1783477,97.4,82.6,7.6,90.7,79.7,1,51.4,Open data governance remediation
+PRD013,Homeowners,Personal,NJ,Direct,30215626,104.4,84.9,4.3,89.2,84.6,0,49.9,Validate source rules before management action
+PRD016,Homeowners,Personal,PA,Exclusive Agent,6568904,101.8,87.2,3.6,87.5,82.4,0,49.8,Validate source rules before management action
+PRD081,Businessowners Policy,Commercial,DE,Direct,12585098,84.1,77.8,-2.9,93.7,75.5,0,48.1,Open data governance remediation
+PRD011,Personal Auto,Personal,CT,Direct,11647096,86.5,80.3,6.4,91.9,76.0,1,47.8,Open data governance remediation
+PRD091,Commercial Umbrella,Commercial,MD,Direct,5275769,107.0,77.0,-0.5,81.8,88.8,0,47.4,Prepare corrective product recommendation
+PRD046,Personal Umbrella,Personal,DE,Exclusive Agent,2097648,76.5,96.0,1.4,91.2,70.8,2,46.7,Open data governance remediation
+PRD050,Workers Compensation,Commercial,NJ,Independent Agent,54080226,93.4,87.4,14.5,92.6,79.3,0,46.0,Review agency growth with source mapping
+PRD034,Renters,Personal,DE,Exclusive Agent,2080796,84.5,89.6,-1.1,91.5,73.1,2,41.3,Open data governance remediation
+PRD093,Commercial Umbrella,Commercial,DE,Direct,8569535,94.1,81.4,9.3,93.4,79.6,1,40.6,Open data governance remediation
+PRD054,Workers Compensation,Commercial,NY,Independent Agent,41521985,94.0,85.0,6.3,88.2,80.7,0,40.5,Validate source rules before management action
+PRD074,Businessowners Policy,Commercial,NJ,Independent Agent,18655559,92.6,90.4,9.1,93.0,79.6,0,40.5,Review agency growth with source mapping
+PRD014,Homeowners,Personal,NJ,Exclusive Agent,25891106,95.3,83.8,9.7,90.3,84.1,0,38.9,Validate source rules before management action
+PRD006,Personal Auto,Personal,NY,Exclusive Agent,14230176,104.3,89.0,7.7,85.8,84.5,0,38.4,Validate source rules before management action
+PRD032,Renters,Personal,MD,Exclusive Agent,4348116,83.5,94.4,8.4,91.3,78.0,2,38.3,Open data governance remediation
+PRD033,Renters,Personal,DE,Direct,4742767,83.5,96.0,11.3,96.7,77.8,0,38.0,Open data governance remediation
+PRD056,Workers Compensation,Commercial,MD,Independent Agent,40805257,90.3,89.6,10.4,89.4,81.1,0,37.4,Review agency growth with source mapping
+PRD043,Personal Umbrella,Personal,MD,Direct,988796,75.8,94.7,9.5,91.7,78.2,1,37.1,Open data governance remediation
+PRD044,Personal Umbrella,Personal,MD,Exclusive Agent,2391535,78.0,90.2,5.1,86.2,76.8,1,37.1,Open data governance remediation
+PRD051,Workers Compensation,Commercial,PA,Direct,28952636,92.8,80.9,14.4,94.6,83.7,0,36.6,Validate source rules before management action
+PRD095,Commercial Umbrella,Commercial,CT,Direct,6859801,98.2,88.2,12.2,90.7,81.3,0,35.6,Validate source rules before management action
+PRD085,Commercial Umbrella,Commercial,NJ,Direct,15140509,101.8,82.1,3.4,87.7,86.8,0,34.4,Validate source rules before management action
+PRD009,Personal Auto,Personal,DE,Direct,24106375,87.9,90.6,9.2,92.6,78.9,0,33.4,Open data governance remediation
+PRD035,Renters,Personal,CT,Direct,3836009,83.3,94.8,1.3,91.6,77.7,0,32.2,Open data governance remediation
+PRD047,Personal Umbrella,Personal,CT,Direct,3096747,77.0,93.1,8.8,96.2,79.2,0,31.9,Open data governance remediation
+PRD059,Workers Compensation,Commercial,CT,Direct,17102776,87.9,87.5,3.0,92.2,80.6,1,31.3,Validate source rules before management action
+PRD083,Businessowners Policy,Commercial,CT,Direct,9417680,89.3,82.3,3.1,91.0,81.5,0,31.3,Validate source rules before management action
+PRD042,Personal Umbrella,Personal,NY,Exclusive Agent,3991239,84.3,87.5,11.4,93.8,81.7,0,29.9,Validate source rules before management action
+PRD077,Businessowners Policy,Commercial,NY,Direct,6688676,102.7,84.8,12.6,86.6,92.3,0,29.0,Validate source rules before management action
+PRD012,Personal Auto,Personal,CT,Exclusive Agent,22639972,92.4,86.0,8.1,87.2,82.1,0,28.8,Validate source rules before management action
+PRD010,Personal Auto,Personal,DE,Exclusive Agent,8480061,78.3,82.2,4.2,89.6,84.2,0,28.5,Validate source rules before management action
+PRD030,Renters,Personal,NY,Exclusive Agent,4972435,89.6,87.8,3.1,94.2,82.1,0,25.8,Validate source rules before management action
+PRD055,Workers Compensation,Commercial,MD,Direct,65326165,96.3,90.9,2.3,90.1,82.1,0,25.6,Validate source rules before management action
+PRD057,Workers Compensation,Commercial,DE,Direct,48392356,90.5,93.1,4.5,91.3,82.9,0,25.4,Validate source rules before management action
+PRD005,Personal Auto,Personal,NY,Direct,27252174,92.8,82.9,6.4,86.5,85.6,0,24.8,Validate source rules before management action
+PRD027,Renters,Personal,PA,Direct,3010281,83.6,94.1,2.9,89.3,82.9,0,23.8,Validate source rules before management action
+PRD002,Personal Auto,Personal,NJ,Exclusive Agent,20491960,95.2,81.7,7.6,88.2,88.9,0,23.4,Validate source rules before management action
+PRD007,Personal Auto,Personal,MD,Direct,19259499,93.4,86.2,8.2,92.3,85.6,0,23.0,Validate source rules before management action
+PRD004,Personal Auto,Personal,PA,Exclusive Agent,9655653,86.1,78.3,10.1,89.6,91.5,0,22.6,Validate source rules before management action
+PRD053,Workers Compensation,Commercial,NY,Direct,64829481,100.7,93.1,4.2,86.6,89.0,0,22.3,Validate source rules before management action
+PRD087,Commercial Umbrella,Commercial,PA,Direct,12838656,94.6,82.0,8.1,91.5,89.1,0,20.0,Validate source rules before management action
+PRD038,Personal Umbrella,Personal,NJ,Exclusive Agent,2382798,80.5,92.8,2.6,90.2,85.5,0,19.7,Validate source rules before management action
+PRD040,Personal Umbrella,Personal,PA,Exclusive Agent,3767427,79.9,96.0,1.1,95.2,85.0,0,18.4,Validate source rules before management action
+PRD075,Businessowners Policy,Commercial,PA,Direct,7873569,95.4,87.2,11.3,90.8,88.2,0,18.3,Validate source rules before management action
+PRD031,Renters,Personal,MD,Direct,2741331,88.6,90.7,1.7,89.5,84.9,0,17.7,Validate source rules before management action
+PRD026,Renters,Personal,NJ,Exclusive Agent,3063992,90.1,90.7,11.6,91.3,89.3,0,16.5,Validate source rules before management action
+PRD028,Renters,Personal,PA,Exclusive Agent,6562731,86.2,85.8,6.2,88.2,88.3,0,15.8,Validate source rules before management action
+PRD041,Personal Umbrella,Personal,NY,Direct,2799119,83.8,94.1,9.2,92.6,88.9,0,15.1,Validate source rules before management action
+PRD029,Renters,Personal,NY,Direct,8496335,80.9,96.0,8.3,95.3,86.8,0,14.7,Validate source rules before management action
+PRD073,Businessowners Policy,Commercial,NJ,Direct,21102780,94.4,81.0,8.9,90.5,94.1,0,14.2,Validate source rules before management action
+PRD003,Personal Auto,Personal,PA,Direct,39708075,89.2,89.5,7.3,92.9,90.1,0,12.2,Validate source rules before management action
+PRD001,Personal Auto,Personal,NJ,Direct,23387806,86.1,84.1,4.2,91.5,95.2,0,9.7,Validate source rules before management action
+PRD025,Renters,Personal,NJ,Direct,9730829,86.7,96.0,4.3,92.7,89.8,0,9.3,Validate source rules before management action
+PRD049,Workers Compensation,Commercial,NJ,Direct,71023581,86.3,92.1,5.0,89.9,94.4,0,6.8,Validate source rules before management action
+PRD039,Personal Umbrella,Personal,PA,Direct,3884445,81.3,93.1,-1.6,93.0,92.7,0,3.6,Validate source rules before management action
+PRD037,Personal Umbrella,Personal,NJ,Direct,3331015,78.7,96.0,-1.9,93.1,92.6,0,1.9,Validate source rules before management action

@@ -1,0 +1,6 @@
+request_id,request_type,business_question,primary_product_focus,decision_owner,due_in_days,status
+REQ001,Management KPI refresh,Which product/state combinations are above combined-ratio target and why?,Homeowners,Product Management,10,Ready for review
+REQ002,Agency channel review,Where is independent agency growth creating source-data mapping risk?,Renters,Commercial Lines,7,Ready for review
+REQ003,Claims service readout,Which segments show satisfaction decline alongside loss-ratio pressure?,Personal Umbrella,Claims Leadership,5,Ready for review
+REQ004,Corrective action planning,Which data fixes are blocking a confident business recommendation?,Homeowners,Commercial Lines,3,Data rule clarification needed
+REQ005,Market scan,Which industry trends should change the next product review agenda?,Personal Umbrella,Commercial Lines,3,Analysis in progress

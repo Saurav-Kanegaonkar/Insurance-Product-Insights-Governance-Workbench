@@ -1,0 +1,25 @@
+rank,product_id,management_question,owner,next_artifact,expected_business_use
+1,PRD072,Can we act on the Commercial Auto signal in CT via Independent Agent?,Commercial Lines Ops,Agency channel source-mapping review,Separate growth opportunity from source-system noise
+2,PRD066,Can we act on the Commercial Auto signal in NY via Independent Agent?,Product Analytics,Source-rule validation summary,Confirm whether the KPI signal is decision-ready
+3,PRD092,Can we act on the Commercial Umbrella signal in MD via Independent Agent?,Commercial Lines Ops,Agency channel source-mapping review,Separate growth opportunity from source-system noise
+4,PRD090,Can we act on the Commercial Umbrella signal in NY via Independent Agent?,Commercial Lines Ops,Agency channel source-mapping review,Separate growth opportunity from source-system noise
+5,PRD068,Can we act on the Commercial Auto signal in MD via Independent Agent?,BI Governance,DQ remediation ticket and metric-definition note,Raise KPI trust score before management readout
+6,PRD070,Can we act on the Commercial Auto signal in DE via Independent Agent?,Commercial Lines Ops,Agency channel source-mapping review,Separate growth opportunity from source-system noise
+7,PRD067,Can we act on the Commercial Auto signal in MD via Direct?,BI Governance,DQ remediation ticket and metric-definition note,Raise KPI trust score before management readout
+8,PRD064,Can we act on the Commercial Auto signal in PA via Independent Agent?,Commercial Lines Ops,Agency channel source-mapping review,Separate growth opportunity from source-system noise
+9,PRD024,Can we act on the Homeowners signal in CT via Exclusive Agent?,BI Governance,DQ remediation ticket and metric-definition note,Raise KPI trust score before management readout
+10,PRD080,Can we act on the Businessowners Policy signal in MD via Independent Agent?,Commercial Lines Ops,Agency channel source-mapping review,Separate growth opportunity from source-system noise
+11,PRD020,Can we act on the Homeowners signal in MD via Exclusive Agent?,BI Governance,DQ remediation ticket and metric-definition note,Raise KPI trust score before management readout
+12,PRD096,Can we act on the Commercial Umbrella signal in CT via Independent Agent?,Commercial Lines Ops,Agency channel source-mapping review,Separate growth opportunity from source-system noise
+13,PRD082,Can we act on the Businessowners Policy signal in DE via Independent Agent?,BI Governance,DQ remediation ticket and metric-definition note,Raise KPI trust score before management readout
+14,PRD062,Can we act on the Commercial Auto signal in NJ via Independent Agent?,BI Governance,DQ remediation ticket and metric-definition note,Raise KPI trust score before management readout
+15,PRD023,Can we act on the Homeowners signal in CT via Direct?,BI Governance,DQ remediation ticket and metric-definition note,Raise KPI trust score before management readout
+16,PRD018,Can we act on the Homeowners signal in NY via Exclusive Agent?,BI Governance,DQ remediation ticket and metric-definition note,Raise KPI trust score before management readout
+17,PRD017,Can we act on the Homeowners signal in NY via Direct?,Product Analytics,Source-rule validation summary,Confirm whether the KPI signal is decision-ready
+18,PRD060,Can we act on the Workers Compensation signal in CT via Independent Agent?,Commercial Lines Ops,Agency channel source-mapping review,Separate growth opportunity from source-system noise
+19,PRD071,Can we act on the Commercial Auto signal in CT via Direct?,BI Governance,DQ remediation ticket and metric-definition note,Raise KPI trust score before management readout
+20,PRD065,Can we act on the Commercial Auto signal in NY via Direct?,Product Management,Product action brief with trend and profitability drivers,Create corrective action recommendation for next operating review
+21,PRD015,Can we act on the Homeowners signal in PA via Direct?,Product Analytics,Source-rule validation summary,Confirm whether the KPI signal is decision-ready
+22,PRD019,Can we act on the Homeowners signal in MD via Direct?,Product Analytics,Source-rule validation summary,Confirm whether the KPI signal is decision-ready
+23,PRD069,Can we act on the Commercial Auto signal in DE via Direct?,Product Analytics,Source-rule validation summary,Confirm whether the KPI signal is decision-ready
+24,PRD021,Can we act on the Homeowners signal in DE via Direct?,BI Governance,DQ remediation ticket and metric-definition note,Raise KPI trust score before management readout

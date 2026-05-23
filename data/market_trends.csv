@@ -1,0 +1,5 @@
+trend_id,trend,affected_products,modeled_assumption,analyst_response
+MKT001,Personal auto profitability recovery,Personal Auto,Lower combined ratio pressure but more shopping sensitivity as rates stabilize,"Track retention, quote conversion, and claim severity together before recommending rate or discount actions"
+MKT002,Homeowners catastrophe volatility,Homeowners,Seasonal weather and replacement-cost uncertainty can move loss ratio faster than premium actions,Separate weather-driven variance from controllable underwriting or data-definition issues
+MKT003,Commercial auto severity pressure,Commercial Auto,Litigation and repair-cost severity keep casualty lines above target in several markets,"Prioritize account mix, claim severity, and MVR data quality in the monthly product review"
+MKT004,Independent agency expansion,Commercial lines,Newer agency channels create growth upside and more source-system mapping risk,"Pair agency production KPIs with appointment, appetite, and source completeness checks"

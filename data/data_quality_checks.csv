@@ -1,0 +1,325 @@
+check_id,product_id,check_name,impacted_metric,source_system,quality_dimension,failed_row_rate,severity,owner,status
+DQ0001,PRD001,Agency appointment mapping,channel,agency_feed,Accuracy,2.4,Low,Commercial Lines Ops,In Review
+DQ0002,PRD001,Premium transaction duplicate scan,earned_premium,billing,Accuracy,3.7,Low,Commercial Lines Ops,In Review
+DQ0003,PRD001,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,2.1,Low,Commercial Lines Ops,Monitoring
+DQ0004,PRD002,Policy count reconciliation,exposure_count,policy_admin,Completeness,4.4,Low,Product Analytics,Remediation Planned
+DQ0005,PRD002,Premium transaction duplicate scan,earned_premium,billing,Accuracy,7.1,Medium,Product Analytics,Open
+DQ0006,PRD002,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,9.6,Medium,Product Analytics,Open
+DQ0007,PRD003,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,7.5,Medium,Product Analytics,Open
+DQ0008,PRD003,Claims lag validation,loss_ratio,claims,Timeliness,6.3,Medium,Product Analytics,In Review
+DQ0009,PRD003,Agency appointment mapping,channel,agency_feed,Accuracy,2.4,Low,Product Analytics,Remediation Planned
+DQ0010,PRD004,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,4.7,Low,Product Analytics,Open
+DQ0011,PRD004,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,4.4,Low,Product Analytics,Open
+DQ0012,PRD004,Premium transaction duplicate scan,earned_premium,billing,Accuracy,5.7,Low,Product Analytics,Open
+DQ0013,PRD005,Agency appointment mapping,channel,agency_feed,Accuracy,7.0,Medium,Claims Data,In Review
+DQ0014,PRD005,Policy count reconciliation,exposure_count,policy_admin,Completeness,6.3,Medium,Claims Data,Open
+DQ0015,PRD005,Premium transaction duplicate scan,earned_premium,billing,Accuracy,3.4,Low,Claims Data,Open
+DQ0016,PRD006,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,5.0,Low,BI Governance,Remediation Planned
+DQ0017,PRD006,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,5.4,Low,BI Governance,Open
+DQ0018,PRD006,Policy count reconciliation,exposure_count,policy_admin,Completeness,6.5,Medium,BI Governance,Monitoring
+DQ0019,PRD007,Premium transaction duplicate scan,earned_premium,billing,Accuracy,6.5,Medium,BI Governance,Open
+DQ0020,PRD007,Claims lag validation,loss_ratio,claims,Timeliness,6.6,Medium,BI Governance,Monitoring
+DQ0021,PRD007,Policy count reconciliation,exposure_count,policy_admin,Completeness,7.4,Medium,BI Governance,Open
+DQ0022,PRD008,Policy count reconciliation,exposure_count,policy_admin,Completeness,10.1,Medium,Product Analytics,Open
+DQ0023,PRD008,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,10.0,Medium,Product Analytics,Remediation Planned
+DQ0024,PRD008,Premium transaction duplicate scan,earned_premium,billing,Accuracy,11.5,Medium,Product Analytics,Open
+DQ0025,PRD009,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,8.5,Medium,BI Governance,Open
+DQ0026,PRD009,Claims lag validation,loss_ratio,claims,Timeliness,11.8,Medium,BI Governance,Remediation Planned
+DQ0027,PRD009,Policy count reconciliation,exposure_count,policy_admin,Completeness,5.9,Low,BI Governance,Monitoring
+DQ0028,PRD010,Claims lag validation,loss_ratio,claims,Timeliness,8.0,Medium,Product Analytics,Monitoring
+DQ0029,PRD010,Policy count reconciliation,exposure_count,policy_admin,Completeness,7.8,Medium,Product Analytics,Open
+DQ0030,PRD010,Agency appointment mapping,channel,agency_feed,Accuracy,6.2,Medium,Product Analytics,Open
+DQ0031,PRD011,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,13.7,High,Claims Data,Monitoring
+DQ0032,PRD011,Premium transaction duplicate scan,earned_premium,billing,Accuracy,8.9,Medium,Claims Data,Remediation Planned
+DQ0033,PRD011,Policy count reconciliation,exposure_count,policy_admin,Completeness,9.9,Medium,Claims Data,Monitoring
+DQ0034,PRD012,Premium transaction duplicate scan,earned_premium,billing,Accuracy,8.5,Medium,Claims Data,Monitoring
+DQ0035,PRD012,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,7.5,Medium,Claims Data,Open
+DQ0036,PRD012,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,5.3,Low,Claims Data,Open
+DQ0037,PRD013,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,2.8,Low,Claims Data,Open
+DQ0038,PRD013,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,8.2,Medium,Claims Data,Remediation Planned
+DQ0039,PRD013,Agency appointment mapping,channel,agency_feed,Accuracy,5.0,Low,Claims Data,Remediation Planned
+DQ0040,PRD013,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,7.7,Medium,Claims Data,In Review
+DQ0041,PRD014,Premium transaction duplicate scan,earned_premium,billing,Accuracy,8.7,Medium,Claims Data,Open
+DQ0042,PRD014,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,5.6,Low,Claims Data,Remediation Planned
+DQ0043,PRD014,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,6.1,Medium,Claims Data,In Review
+DQ0044,PRD014,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,8.5,Medium,Claims Data,Remediation Planned
+DQ0045,PRD015,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,2.7,Low,Claims Data,Open
+DQ0046,PRD015,Policy count reconciliation,exposure_count,policy_admin,Completeness,7.3,Medium,Claims Data,Open
+DQ0047,PRD015,Claims lag validation,loss_ratio,claims,Timeliness,6.9,Medium,Claims Data,Open
+DQ0048,PRD015,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,8.1,Medium,Claims Data,Open
+DQ0049,PRD016,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,11.7,Medium,Claims Data,In Review
+DQ0050,PRD016,Premium transaction duplicate scan,earned_premium,billing,Accuracy,9.8,Medium,Claims Data,Remediation Planned
+DQ0051,PRD016,Agency appointment mapping,channel,agency_feed,Accuracy,8.8,Medium,Claims Data,Remediation Planned
+DQ0052,PRD016,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,8.3,Medium,Claims Data,Open
+DQ0053,PRD017,Claims lag validation,loss_ratio,claims,Timeliness,5.9,Low,Commercial Lines Ops,Remediation Planned
+DQ0054,PRD017,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,9.1,Medium,Commercial Lines Ops,Open
+DQ0055,PRD017,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,6.5,Medium,Commercial Lines Ops,Remediation Planned
+DQ0056,PRD017,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,7.6,Medium,Commercial Lines Ops,Open
+DQ0057,PRD018,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,11.4,Medium,Commercial Lines Ops,Remediation Planned
+DQ0058,PRD018,Agency appointment mapping,channel,agency_feed,Accuracy,8.7,Medium,Commercial Lines Ops,Monitoring
+DQ0059,PRD018,Claims lag validation,loss_ratio,claims,Timeliness,7.6,Medium,Commercial Lines Ops,Monitoring
+DQ0060,PRD018,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,8.6,Medium,Commercial Lines Ops,Monitoring
+DQ0061,PRD019,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,11.3,Medium,Claims Data,Open
+DQ0062,PRD019,Claims lag validation,loss_ratio,claims,Timeliness,6.3,Medium,Claims Data,Open
+DQ0063,PRD019,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,7.4,Medium,Claims Data,Open
+DQ0064,PRD019,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,8.3,Medium,Claims Data,Monitoring
+DQ0065,PRD020,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,13.2,High,Commercial Lines Ops,Monitoring
+DQ0066,PRD020,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,8.4,Medium,Commercial Lines Ops,Remediation Planned
+DQ0067,PRD020,Agency appointment mapping,channel,agency_feed,Accuracy,11.7,Medium,Commercial Lines Ops,Monitoring
+DQ0068,PRD020,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,13.0,High,Commercial Lines Ops,Open
+DQ0069,PRD021,Agency appointment mapping,channel,agency_feed,Accuracy,11.7,Medium,Commercial Lines Ops,Monitoring
+DQ0070,PRD021,Premium transaction duplicate scan,earned_premium,billing,Accuracy,7.2,Medium,Commercial Lines Ops,Monitoring
+DQ0071,PRD021,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,6.6,Medium,Commercial Lines Ops,Remediation Planned
+DQ0072,PRD021,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,10.0,Medium,Commercial Lines Ops,In Review
+DQ0073,PRD022,Premium transaction duplicate scan,earned_premium,billing,Accuracy,8.8,Medium,Claims Data,Monitoring
+DQ0074,PRD022,Claims lag validation,loss_ratio,claims,Timeliness,11.3,Medium,Claims Data,Open
+DQ0075,PRD022,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,7.5,Medium,Claims Data,Open
+DQ0076,PRD022,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,8.1,Medium,Claims Data,Open
+DQ0077,PRD023,Claims lag validation,loss_ratio,claims,Timeliness,10.5,Medium,Product Analytics,Remediation Planned
+DQ0078,PRD023,Policy count reconciliation,exposure_count,policy_admin,Completeness,11.3,Medium,Product Analytics,Open
+DQ0079,PRD023,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,13.7,High,Product Analytics,Open
+DQ0080,PRD023,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,10.9,Medium,Product Analytics,Remediation Planned
+DQ0081,PRD024,Claims lag validation,loss_ratio,claims,Timeliness,10.6,Medium,BI Governance,Open
+DQ0082,PRD024,Premium transaction duplicate scan,earned_premium,billing,Accuracy,9.9,Medium,BI Governance,Monitoring
+DQ0083,PRD024,Agency appointment mapping,channel,agency_feed,Accuracy,12.8,High,BI Governance,In Review
+DQ0084,PRD024,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,9.9,Medium,BI Governance,Remediation Planned
+DQ0085,PRD025,Policy count reconciliation,exposure_count,policy_admin,Completeness,6.7,Medium,Commercial Lines Ops,Open
+DQ0086,PRD025,Premium transaction duplicate scan,earned_premium,billing,Accuracy,0.6,Low,Commercial Lines Ops,Monitoring
+DQ0087,PRD025,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,3.8,Low,Commercial Lines Ops,Open
+DQ0088,PRD026,Policy count reconciliation,exposure_count,policy_admin,Completeness,4.4,Low,BI Governance,Open
+DQ0089,PRD026,Agency appointment mapping,channel,agency_feed,Accuracy,4.7,Low,BI Governance,Monitoring
+DQ0090,PRD026,Claims lag validation,loss_ratio,claims,Timeliness,9.9,Medium,BI Governance,Open
+DQ0091,PRD027,Agency appointment mapping,channel,agency_feed,Accuracy,6.7,Medium,BI Governance,Remediation Planned
+DQ0092,PRD027,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,9.3,Medium,BI Governance,Monitoring
+DQ0093,PRD027,Claims lag validation,loss_ratio,claims,Timeliness,9.0,Medium,BI Governance,Open
+DQ0094,PRD028,Claims lag validation,loss_ratio,claims,Timeliness,4.8,Low,Commercial Lines Ops,Open
+DQ0095,PRD028,Agency appointment mapping,channel,agency_feed,Accuracy,4.1,Low,Commercial Lines Ops,In Review
+DQ0096,PRD028,Policy count reconciliation,exposure_count,policy_admin,Completeness,3.9,Low,Commercial Lines Ops,Open
+DQ0097,PRD029,Policy count reconciliation,exposure_count,policy_admin,Completeness,4.0,Low,Claims Data,Monitoring
+DQ0098,PRD029,Premium transaction duplicate scan,earned_premium,billing,Accuracy,0.2,Low,Claims Data,Open
+DQ0099,PRD029,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,3.6,Low,Claims Data,Remediation Planned
+DQ0100,PRD030,Claims lag validation,loss_ratio,claims,Timeliness,6.9,Medium,BI Governance,Open
+DQ0101,PRD030,Premium transaction duplicate scan,earned_premium,billing,Accuracy,7.7,Medium,BI Governance,In Review
+DQ0102,PRD030,Policy count reconciliation,exposure_count,policy_admin,Completeness,11.6,Medium,BI Governance,Open
+DQ0103,PRD031,Policy count reconciliation,exposure_count,policy_admin,Completeness,5.0,Low,Commercial Lines Ops,Open
+DQ0104,PRD031,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,5.6,Low,Commercial Lines Ops,Open
+DQ0105,PRD031,Claims lag validation,loss_ratio,claims,Timeliness,7.1,Medium,Commercial Lines Ops,In Review
+DQ0106,PRD032,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,13.0,High,Product Analytics,In Review
+DQ0107,PRD032,Premium transaction duplicate scan,earned_premium,billing,Accuracy,12.0,Medium,Product Analytics,Remediation Planned
+DQ0108,PRD032,Claims lag validation,loss_ratio,claims,Timeliness,12.3,High,Product Analytics,In Review
+DQ0109,PRD033,Agency appointment mapping,channel,agency_feed,Accuracy,9.1,Medium,BI Governance,Remediation Planned
+DQ0110,PRD033,Policy count reconciliation,exposure_count,policy_admin,Completeness,11.4,Medium,BI Governance,Open
+DQ0111,PRD033,Claims lag validation,loss_ratio,claims,Timeliness,11.0,Medium,BI Governance,Open
+DQ0112,PRD034,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,13.3,High,BI Governance,In Review
+DQ0113,PRD034,Agency appointment mapping,channel,agency_feed,Accuracy,12.1,High,BI Governance,Open
+DQ0114,PRD034,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,11.6,Medium,BI Governance,Remediation Planned
+DQ0115,PRD035,Premium transaction duplicate scan,earned_premium,billing,Accuracy,11.2,Medium,BI Governance,In Review
+DQ0116,PRD035,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,7.2,Medium,BI Governance,Monitoring
+DQ0117,PRD035,Agency appointment mapping,channel,agency_feed,Accuracy,10.4,Medium,BI Governance,Remediation Planned
+DQ0118,PRD036,Claims lag validation,loss_ratio,claims,Timeliness,13.8,High,BI Governance,Remediation Planned
+DQ0119,PRD036,Premium transaction duplicate scan,earned_premium,billing,Accuracy,16.6,High,BI Governance,In Review
+DQ0120,PRD036,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,15.9,High,BI Governance,Open
+DQ0121,PRD037,Policy count reconciliation,exposure_count,policy_admin,Completeness,3.1,Low,BI Governance,Remediation Planned
+DQ0122,PRD037,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,0.7,Low,BI Governance,Monitoring
+DQ0123,PRD037,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,1.5,Low,BI Governance,Remediation Planned
+DQ0124,PRD038,Premium transaction duplicate scan,earned_premium,billing,Accuracy,8.4,Medium,Commercial Lines Ops,Open
+DQ0125,PRD038,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,7.7,Medium,Commercial Lines Ops,Open
+DQ0126,PRD038,Agency appointment mapping,channel,agency_feed,Accuracy,8.6,Medium,Commercial Lines Ops,Open
+DQ0127,PRD039,Premium transaction duplicate scan,earned_premium,billing,Accuracy,1.5,Low,Commercial Lines Ops,Monitoring
+DQ0128,PRD039,Claims lag validation,loss_ratio,claims,Timeliness,5.9,Low,Commercial Lines Ops,In Review
+DQ0129,PRD039,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,3.0,Low,Commercial Lines Ops,Monitoring
+DQ0130,PRD040,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,8.9,Medium,Commercial Lines Ops,Remediation Planned
+DQ0131,PRD040,Agency appointment mapping,channel,agency_feed,Accuracy,7.7,Medium,Commercial Lines Ops,Monitoring
+DQ0132,PRD040,Claims lag validation,loss_ratio,claims,Timeliness,4.4,Low,Commercial Lines Ops,Remediation Planned
+DQ0133,PRD041,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,4.0,Low,Commercial Lines Ops,Open
+DQ0134,PRD041,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,3.6,Low,Commercial Lines Ops,In Review
+DQ0135,PRD041,Policy count reconciliation,exposure_count,policy_admin,Completeness,9.0,Medium,Commercial Lines Ops,Remediation Planned
+DQ0136,PRD042,Claims lag validation,loss_ratio,claims,Timeliness,9.2,Medium,Commercial Lines Ops,Open
+DQ0137,PRD042,Premium transaction duplicate scan,earned_premium,billing,Accuracy,6.3,Medium,Commercial Lines Ops,Monitoring
+DQ0138,PRD042,Agency appointment mapping,channel,agency_feed,Accuracy,7.7,Medium,Commercial Lines Ops,In Review
+DQ0139,PRD043,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,10.8,Medium,Product Analytics,Monitoring
+DQ0140,PRD043,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,14.0,High,Product Analytics,Open
+DQ0141,PRD043,Claims lag validation,loss_ratio,claims,Timeliness,8.4,Medium,Product Analytics,In Review
+DQ0142,PRD044,Premium transaction duplicate scan,earned_premium,billing,Accuracy,12.4,High,Product Analytics,Open
+DQ0143,PRD044,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,10.7,Medium,Product Analytics,Open
+DQ0144,PRD044,Claims lag validation,loss_ratio,claims,Timeliness,10.5,Medium,Product Analytics,Open
+DQ0145,PRD045,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,15.8,High,Product Analytics,Remediation Planned
+DQ0146,PRD045,Claims lag validation,loss_ratio,claims,Timeliness,12.8,High,Product Analytics,Open
+DQ0147,PRD045,Agency appointment mapping,channel,agency_feed,Accuracy,13.5,High,Product Analytics,Monitoring
+DQ0148,PRD046,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,10.9,Medium,Claims Data,Open
+DQ0149,PRD046,Policy count reconciliation,exposure_count,policy_admin,Completeness,15.6,High,Claims Data,In Review
+DQ0150,PRD046,Premium transaction duplicate scan,earned_premium,billing,Accuracy,14.1,High,Claims Data,In Review
+DQ0151,PRD047,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,7.4,Medium,Product Analytics,Monitoring
+DQ0152,PRD047,Premium transaction duplicate scan,earned_premium,billing,Accuracy,8.8,Medium,Product Analytics,Open
+DQ0153,PRD047,Policy count reconciliation,exposure_count,policy_admin,Completeness,7.6,Medium,Product Analytics,Monitoring
+DQ0154,PRD048,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,14.6,High,BI Governance,In Review
+DQ0155,PRD048,Premium transaction duplicate scan,earned_premium,billing,Accuracy,14.2,High,BI Governance,Monitoring
+DQ0156,PRD048,Policy count reconciliation,exposure_count,policy_admin,Completeness,15.0,High,BI Governance,In Review
+DQ0157,PRD049,Agency appointment mapping,channel,agency_feed,Accuracy,3.3,Low,Claims Data,Monitoring
+DQ0158,PRD049,Claims lag validation,loss_ratio,claims,Timeliness,4.0,Low,Claims Data,Open
+DQ0159,PRD049,Premium transaction duplicate scan,earned_premium,billing,Accuracy,5.0,Low,Claims Data,Open
+DQ0160,PRD050,Agency appointment mapping,channel,agency_feed,Accuracy,8.4,Medium,Claims Data,Remediation Planned
+DQ0161,PRD050,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,9.4,Medium,Claims Data,Remediation Planned
+DQ0162,PRD050,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,10.2,Medium,Claims Data,In Review
+DQ0163,PRD050,Agency appointment mapping,channel,agency_feed,Accuracy,8.1,Medium,Claims Data,Monitoring
+DQ0164,PRD051,Policy count reconciliation,exposure_count,policy_admin,Completeness,9.0,Medium,Claims Data,Monitoring
+DQ0165,PRD051,Premium transaction duplicate scan,earned_premium,billing,Accuracy,6.0,Low,Claims Data,In Review
+DQ0166,PRD051,Claims lag validation,loss_ratio,claims,Timeliness,9.2,Medium,Claims Data,Monitoring
+DQ0167,PRD052,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,9.2,Medium,Product Analytics,Remediation Planned
+DQ0168,PRD052,Premium transaction duplicate scan,earned_premium,billing,Accuracy,13.9,High,Product Analytics,In Review
+DQ0169,PRD052,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,9.8,Medium,Product Analytics,Remediation Planned
+DQ0170,PRD052,Agency appointment mapping,channel,agency_feed,Accuracy,10.3,Medium,Product Analytics,Remediation Planned
+DQ0171,PRD053,Policy count reconciliation,exposure_count,policy_admin,Completeness,4.6,Low,Claims Data,Monitoring
+DQ0172,PRD053,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,4.0,Low,Claims Data,Open
+DQ0173,PRD053,Claims lag validation,loss_ratio,claims,Timeliness,8.1,Medium,Claims Data,Monitoring
+DQ0174,PRD054,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,9.2,Medium,Product Analytics,Monitoring
+DQ0175,PRD054,Agency appointment mapping,channel,agency_feed,Accuracy,3.7,Low,Product Analytics,Open
+DQ0176,PRD054,Premium transaction duplicate scan,earned_premium,billing,Accuracy,8.5,Medium,Product Analytics,In Review
+DQ0177,PRD054,Agency appointment mapping,channel,agency_feed,Accuracy,10.6,Medium,Product Analytics,Monitoring
+DQ0178,PRD055,Premium transaction duplicate scan,earned_premium,billing,Accuracy,8.3,Medium,Product Analytics,Monitoring
+DQ0179,PRD055,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,8.5,Medium,Product Analytics,In Review
+DQ0180,PRD055,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,8.8,Medium,Product Analytics,Open
+DQ0181,PRD056,Policy count reconciliation,exposure_count,policy_admin,Completeness,7.6,Medium,Commercial Lines Ops,Monitoring
+DQ0182,PRD056,Agency appointment mapping,channel,agency_feed,Accuracy,5.5,Low,Commercial Lines Ops,Open
+DQ0183,PRD056,Claims lag validation,loss_ratio,claims,Timeliness,7.8,Medium,Commercial Lines Ops,In Review
+DQ0184,PRD056,Agency appointment mapping,channel,agency_feed,Accuracy,9.6,Medium,Commercial Lines Ops,Open
+DQ0185,PRD057,Policy count reconciliation,exposure_count,policy_admin,Completeness,8.8,Medium,Commercial Lines Ops,Monitoring
+DQ0186,PRD057,Premium transaction duplicate scan,earned_premium,billing,Accuracy,10.5,Medium,Commercial Lines Ops,In Review
+DQ0187,PRD057,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,7.8,Medium,Commercial Lines Ops,Open
+DQ0188,PRD058,Agency appointment mapping,channel,agency_feed,Accuracy,6.4,Medium,BI Governance,In Review
+DQ0189,PRD058,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,12.5,High,BI Governance,Open
+DQ0190,PRD058,Premium transaction duplicate scan,earned_premium,billing,Accuracy,9.5,Medium,BI Governance,Open
+DQ0191,PRD058,Agency appointment mapping,channel,agency_feed,Accuracy,13.1,High,BI Governance,Open
+DQ0192,PRD059,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,10.3,Medium,Commercial Lines Ops,In Review
+DQ0193,PRD059,Agency appointment mapping,channel,agency_feed,Accuracy,12.5,High,Commercial Lines Ops,Open
+DQ0194,PRD059,Claims lag validation,loss_ratio,claims,Timeliness,11.9,Medium,Commercial Lines Ops,Remediation Planned
+DQ0195,PRD060,Policy count reconciliation,exposure_count,policy_admin,Completeness,10.4,Medium,Product Analytics,Monitoring
+DQ0196,PRD060,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,13.7,High,Product Analytics,Open
+DQ0197,PRD060,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,13.1,High,Product Analytics,Open
+DQ0198,PRD060,Agency appointment mapping,channel,agency_feed,Accuracy,9.6,Medium,Product Analytics,Open
+DQ0199,PRD061,Claims lag validation,loss_ratio,claims,Timeliness,3.2,Low,Product Analytics,Open
+DQ0200,PRD061,Agency appointment mapping,channel,agency_feed,Accuracy,0.9,Low,Product Analytics,In Review
+DQ0201,PRD061,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,0.3,Low,Product Analytics,Remediation Planned
+DQ0202,PRD062,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,9.6,Medium,Product Analytics,Open
+DQ0203,PRD062,Agency appointment mapping,channel,agency_feed,Accuracy,10.4,Medium,Product Analytics,Remediation Planned
+DQ0204,PRD062,Claims lag validation,loss_ratio,claims,Timeliness,6.6,Medium,Product Analytics,Open
+DQ0205,PRD062,Agency appointment mapping,channel,agency_feed,Accuracy,8.4,Medium,Product Analytics,Open
+DQ0206,PRD063,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,6.0,Low,Claims Data,In Review
+DQ0207,PRD063,Premium transaction duplicate scan,earned_premium,billing,Accuracy,7.0,Medium,Claims Data,In Review
+DQ0208,PRD063,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,5.0,Low,Claims Data,Remediation Planned
+DQ0209,PRD064,Premium transaction duplicate scan,earned_premium,billing,Accuracy,6.9,Medium,Commercial Lines Ops,Open
+DQ0210,PRD064,Agency appointment mapping,channel,agency_feed,Accuracy,5.7,Low,Commercial Lines Ops,Open
+DQ0211,PRD064,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,8.9,Medium,Commercial Lines Ops,Monitoring
+DQ0212,PRD064,Agency appointment mapping,channel,agency_feed,Accuracy,6.6,Medium,Commercial Lines Ops,Open
+DQ0213,PRD065,Policy count reconciliation,exposure_count,policy_admin,Completeness,8.2,Medium,BI Governance,Open
+DQ0214,PRD065,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,0.8,Low,BI Governance,Remediation Planned
+DQ0215,PRD065,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,4.5,Low,BI Governance,Remediation Planned
+DQ0216,PRD066,Claims lag validation,loss_ratio,claims,Timeliness,9.4,Medium,Claims Data,Open
+DQ0217,PRD066,Policy count reconciliation,exposure_count,policy_admin,Completeness,9.3,Medium,Claims Data,Remediation Planned
+DQ0218,PRD066,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,6.5,Medium,Claims Data,Monitoring
+DQ0219,PRD066,Agency appointment mapping,channel,agency_feed,Accuracy,8.1,Medium,Claims Data,Open
+DQ0220,PRD067,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,10.6,Medium,BI Governance,Monitoring
+DQ0221,PRD067,Agency appointment mapping,channel,agency_feed,Accuracy,9.7,Medium,BI Governance,Open
+DQ0222,PRD067,Claims lag validation,loss_ratio,claims,Timeliness,12.6,High,BI Governance,In Review
+DQ0223,PRD068,Agency appointment mapping,channel,agency_feed,Accuracy,14.9,High,Commercial Lines Ops,Open
+DQ0224,PRD068,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,10.8,Medium,Commercial Lines Ops,Monitoring
+DQ0225,PRD068,Claims lag validation,loss_ratio,claims,Timeliness,12.4,High,Commercial Lines Ops,Open
+DQ0226,PRD068,Agency appointment mapping,channel,agency_feed,Accuracy,14.1,High,Commercial Lines Ops,Open
+DQ0227,PRD069,Policy count reconciliation,exposure_count,policy_admin,Completeness,5.1,Low,Claims Data,Monitoring
+DQ0228,PRD069,Agency appointment mapping,channel,agency_feed,Accuracy,9.1,Medium,Claims Data,In Review
+DQ0229,PRD069,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,8.5,Medium,Claims Data,Monitoring
+DQ0230,PRD070,Claims lag validation,loss_ratio,claims,Timeliness,7.8,Medium,Product Analytics,Remediation Planned
+DQ0231,PRD070,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,13.0,High,Product Analytics,Monitoring
+DQ0232,PRD070,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,13.5,High,Product Analytics,Open
+DQ0233,PRD070,Agency appointment mapping,channel,agency_feed,Accuracy,12.2,High,Product Analytics,In Review
+DQ0234,PRD071,Agency appointment mapping,channel,agency_feed,Accuracy,7.9,Medium,Claims Data,Monitoring
+DQ0235,PRD071,Claims lag validation,loss_ratio,claims,Timeliness,11.9,Medium,Claims Data,Open
+DQ0236,PRD071,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,13.0,High,Claims Data,Open
+DQ0237,PRD072,Claims lag validation,loss_ratio,claims,Timeliness,12.2,High,Claims Data,In Review
+DQ0238,PRD072,Premium transaction duplicate scan,earned_premium,billing,Accuracy,12.1,High,Claims Data,Remediation Planned
+DQ0239,PRD072,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,12.3,High,Claims Data,Open
+DQ0240,PRD072,Agency appointment mapping,channel,agency_feed,Accuracy,12.5,High,Claims Data,Monitoring
+DQ0241,PRD073,Premium transaction duplicate scan,earned_premium,billing,Accuracy,3.5,Low,Commercial Lines Ops,In Review
+DQ0242,PRD073,Claims lag validation,loss_ratio,claims,Timeliness,0.2,Low,Commercial Lines Ops,Remediation Planned
+DQ0243,PRD073,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,0.2,Low,Commercial Lines Ops,Open
+DQ0244,PRD074,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,8.2,Medium,Claims Data,Remediation Planned
+DQ0245,PRD074,Claims lag validation,loss_ratio,claims,Timeliness,10.4,Medium,Claims Data,Open
+DQ0246,PRD074,Policy count reconciliation,exposure_count,policy_admin,Completeness,7.5,Medium,Claims Data,Monitoring
+DQ0247,PRD074,Agency appointment mapping,channel,agency_feed,Accuracy,7.4,Medium,Claims Data,Remediation Planned
+DQ0248,PRD075,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,5.0,Low,BI Governance,In Review
+DQ0249,PRD075,Agency appointment mapping,channel,agency_feed,Accuracy,6.4,Medium,BI Governance,In Review
+DQ0250,PRD075,Policy count reconciliation,exposure_count,policy_admin,Completeness,5.8,Low,BI Governance,Remediation Planned
+DQ0251,PRD076,Agency appointment mapping,channel,agency_feed,Accuracy,14.7,High,BI Governance,Open
+DQ0252,PRD076,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,12.1,High,BI Governance,Open
+DQ0253,PRD076,Premium transaction duplicate scan,earned_premium,billing,Accuracy,7.4,Medium,BI Governance,Remediation Planned
+DQ0254,PRD076,Agency appointment mapping,channel,agency_feed,Accuracy,10.3,Medium,BI Governance,Monitoring
+DQ0255,PRD077,Agency appointment mapping,channel,agency_feed,Accuracy,6.1,Medium,Product Analytics,Monitoring
+DQ0256,PRD077,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,5.4,Low,Product Analytics,Open
+DQ0257,PRD077,Claims lag validation,loss_ratio,claims,Timeliness,2.2,Low,Product Analytics,In Review
+DQ0258,PRD078,Agency appointment mapping,channel,agency_feed,Accuracy,12.3,High,BI Governance,Remediation Planned
+DQ0259,PRD078,Premium transaction duplicate scan,earned_premium,billing,Accuracy,12.1,High,BI Governance,Monitoring
+DQ0260,PRD078,Policy count reconciliation,exposure_count,policy_admin,Completeness,9.7,Medium,BI Governance,Monitoring
+DQ0261,PRD078,Agency appointment mapping,channel,agency_feed,Accuracy,12.5,High,BI Governance,In Review
+DQ0262,PRD079,Agency appointment mapping,channel,agency_feed,Accuracy,9.9,Medium,BI Governance,Open
+DQ0263,PRD079,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,8.2,Medium,BI Governance,Open
+DQ0264,PRD079,Claims lag validation,loss_ratio,claims,Timeliness,11.3,Medium,BI Governance,Monitoring
+DQ0265,PRD080,Premium transaction duplicate scan,earned_premium,billing,Accuracy,15.3,High,Claims Data,Remediation Planned
+DQ0266,PRD080,Agency appointment mapping,channel,agency_feed,Accuracy,13.0,High,Claims Data,In Review
+DQ0267,PRD080,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,18.7,High,Claims Data,Open
+DQ0268,PRD080,Agency appointment mapping,channel,agency_feed,Accuracy,12.0,Medium,Claims Data,Open
+DQ0269,PRD081,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,10.8,Medium,Commercial Lines Ops,Open
+DQ0270,PRD081,Agency appointment mapping,channel,agency_feed,Accuracy,9.5,Medium,Commercial Lines Ops,Remediation Planned
+DQ0271,PRD081,Premium transaction duplicate scan,earned_premium,billing,Accuracy,11.4,Medium,Commercial Lines Ops,Open
+DQ0272,PRD082,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,14.6,High,Product Analytics,In Review
+DQ0273,PRD082,Claims lag validation,loss_ratio,claims,Timeliness,13.6,High,Product Analytics,Open
+DQ0274,PRD082,Premium transaction duplicate scan,earned_premium,billing,Accuracy,13.7,High,Product Analytics,Monitoring
+DQ0275,PRD082,Agency appointment mapping,channel,agency_feed,Accuracy,16.0,High,Product Analytics,In Review
+DQ0276,PRD083,Claims lag validation,loss_ratio,claims,Timeliness,5.2,Low,Product Analytics,In Review
+DQ0277,PRD083,Premium transaction duplicate scan,earned_premium,billing,Accuracy,8.7,Medium,Product Analytics,Monitoring
+DQ0278,PRD083,Policy count reconciliation,exposure_count,policy_admin,Completeness,6.6,Medium,Product Analytics,Open
+DQ0279,PRD084,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,10.2,Medium,Product Analytics,Open
+DQ0280,PRD084,Claims lag validation,loss_ratio,claims,Timeliness,8.8,Medium,Product Analytics,Remediation Planned
+DQ0281,PRD084,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,9.8,Medium,Product Analytics,Open
+DQ0282,PRD084,Agency appointment mapping,channel,agency_feed,Accuracy,9.6,Medium,Product Analytics,Open
+DQ0283,PRD085,Claims lag validation,loss_ratio,claims,Timeliness,6.0,Medium,BI Governance,Remediation Planned
+DQ0284,PRD085,Policy count reconciliation,exposure_count,policy_admin,Completeness,6.1,Medium,BI Governance,Remediation Planned
+DQ0285,PRD085,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,3.9,Low,BI Governance,In Review
+DQ0286,PRD086,Agency appointment mapping,channel,agency_feed,Accuracy,7.3,Medium,Product Analytics,In Review
+DQ0287,PRD086,Premium transaction duplicate scan,earned_premium,billing,Accuracy,12.2,High,Product Analytics,Monitoring
+DQ0288,PRD086,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,10.5,Medium,Product Analytics,Remediation Planned
+DQ0289,PRD086,Agency appointment mapping,channel,agency_feed,Accuracy,9.2,Medium,Product Analytics,Monitoring
+DQ0290,PRD087,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,3.6,Low,Product Analytics,Open
+DQ0291,PRD087,Premium transaction duplicate scan,earned_premium,billing,Accuracy,7.0,Medium,Product Analytics,Open
+DQ0292,PRD087,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,2.0,Low,Product Analytics,In Review
+DQ0293,PRD088,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,9.5,Medium,BI Governance,Open
+DQ0294,PRD088,Claims lag validation,loss_ratio,claims,Timeliness,11.5,Medium,BI Governance,Remediation Planned
+DQ0295,PRD088,Agency appointment mapping,channel,agency_feed,Accuracy,10.0,Medium,BI Governance,Open
+DQ0296,PRD088,Agency appointment mapping,channel,agency_feed,Accuracy,8.4,Medium,BI Governance,In Review
+DQ0297,PRD089,Agency appointment mapping,channel,agency_feed,Accuracy,8.5,Medium,Claims Data,Monitoring
+DQ0298,PRD089,Claims lag validation,loss_ratio,claims,Timeliness,8.1,Medium,Claims Data,Open
+DQ0299,PRD089,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,10.6,Medium,Claims Data,Open
+DQ0300,PRD090,Claims lag validation,loss_ratio,claims,Timeliness,14.3,High,BI Governance,Monitoring
+DQ0301,PRD090,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,15.2,High,BI Governance,Monitoring
+DQ0302,PRD090,Agency appointment mapping,channel,agency_feed,Accuracy,10.2,Medium,BI Governance,Monitoring
+DQ0303,PRD090,Agency appointment mapping,channel,agency_feed,Accuracy,12.5,High,BI Governance,Monitoring
+DQ0304,PRD091,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,2.9,Low,Product Analytics,Remediation Planned
+DQ0305,PRD091,Agency appointment mapping,channel,agency_feed,Accuracy,7.2,Medium,Product Analytics,In Review
+DQ0306,PRD091,Policy count reconciliation,exposure_count,policy_admin,Completeness,7.8,Medium,Product Analytics,Remediation Planned
+DQ0307,PRD092,Claims lag validation,loss_ratio,claims,Timeliness,15.5,High,Claims Data,Open
+DQ0308,PRD092,Agency appointment mapping,channel,agency_feed,Accuracy,14.7,High,Claims Data,Monitoring
+DQ0309,PRD092,Policy count reconciliation,exposure_count,policy_admin,Completeness,15.4,High,Claims Data,Open
+DQ0310,PRD092,Agency appointment mapping,channel,agency_feed,Accuracy,15.2,High,Claims Data,Remediation Planned
+DQ0311,PRD093,Policy count reconciliation,exposure_count,policy_admin,Completeness,12.0,High,Claims Data,Open
+DQ0312,PRD093,Claims lag validation,loss_ratio,claims,Timeliness,5.3,Low,Claims Data,Open
+DQ0313,PRD093,Premium transaction duplicate scan,earned_premium,billing,Accuracy,9.6,Medium,Claims Data,Open
+DQ0314,PRD094,Metric definition owner assigned,combined_ratio,semantic_layer,Governance,7.6,Medium,BI Governance,Open
+DQ0315,PRD094,Agency appointment mapping,channel,agency_feed,Accuracy,12.0,High,BI Governance,Open
+DQ0316,PRD094,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,7.0,Medium,BI Governance,Remediation Planned
+DQ0317,PRD094,Agency appointment mapping,channel,agency_feed,Accuracy,9.5,Medium,BI Governance,Open
+DQ0318,PRD095,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,7.4,Medium,Commercial Lines Ops,Open
+DQ0319,PRD095,Agency appointment mapping,channel,agency_feed,Accuracy,9.8,Medium,Commercial Lines Ops,Open
+DQ0320,PRD095,Claims lag validation,loss_ratio,claims,Timeliness,7.9,Medium,Commercial Lines Ops,Open
+DQ0321,PRD096,Claims lag validation,loss_ratio,claims,Timeliness,12.8,High,Claims Data,Remediation Planned
+DQ0322,PRD096,Policy count reconciliation,exposure_count,policy_admin,Completeness,11.1,Medium,Claims Data,Monitoring
+DQ0323,PRD096,Catastrophe territory enrichment,loss_ratio,catastrophe_vendor,Completeness,11.7,Medium,Claims Data,In Review
+DQ0324,PRD096,Agency appointment mapping,channel,agency_feed,Accuracy,10.6,Medium,Claims Data,Monitoring

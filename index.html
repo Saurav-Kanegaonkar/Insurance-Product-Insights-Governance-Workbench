@@ -6,49 +6,201 @@
   <title>Insurance Product Insights Governance Workbench</title>
   <link rel="stylesheet" href="src/styles.css">
 </head>
-<body style="--accent:#4f46e5;--bg:#f4f5ff">
+<body>
   <main class="shell">
     <header class="hero">
-      <div>
-        <p class="eyebrow">Workbench / P&C insurance product insights, KPI dashboards, and data governance</p>
+      <div class="hero-copy">
+        <p class="eyebrow">P&C product insights and KPI governance</p>
         <h1>Insurance Product Insights Governance Workbench</h1>
+        <p class="lede">A decision workspace for ranking product performance signals, explaining the drivers, and separating business action from data-quality remediation.</p>
       </div>
-      <aside>
-        <b>Purpose</b>
-        <span>Turn messy product portfolio-level signals into a ranked operating artifact with recommendations a stakeholder can act on.</span>
-      </aside>
+      <section class="hero-visual" aria-label="Portfolio health visual">
+        <div class="radar">
+          <span style="--x:18%;--y:24%;--s:16px"></span>
+          <span style="--x:62%;--y:16%;--s:24px"></span>
+          <span style="--x:78%;--y:52%;--s:18px"></span>
+          <span style="--x:33%;--y:70%;--s:22px"></span>
+          <span style="--x:50%;--y:45%;--s:34px"></span>
+        </div>
+        <div>
+          <b id="top-product">Loading priority segment</b>
+          <p id="top-action">Preparing workbench signal.</p>
+        </div>
+      </section>
     </header>
-    <section class="metrics">
-      <article><span>Modeled rows</span><strong>6.0K+</strong><em>source-style</em></article>
-      <article><span>Ranked queue</span><strong>25</strong><em>product portfolios</em></article>
-      <article><span>Action pool</span><strong>220</strong><em>candidates</em></article>
-      <article><span>Review time</span><strong>-6 hrs</strong><em>weekly</em></article>
+
+    <nav class="tabs" aria-label="Workbench surfaces">
+      <button class="tab is-active" data-view="cockpit" type="button">Cockpit</button>
+      <button class="tab" data-view="diagnostic" type="button">Diagnostic</button>
+      <button class="tab" data-view="governance" type="button">Governance</button>
+      <button class="tab" data-view="brief" type="button">Brief</button>
+    </nav>
+
+    <section id="cockpit" class="view is-active" aria-labelledby="cockpit-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Executive cockpit</p>
+          <h2 id="cockpit-title">Rank product segments by decision readiness</h2>
+        </div>
+        <label class="filter-control">
+          <span>Line</span>
+          <select id="line-filter">
+            <option value="All">All</option>
+            <option value="Personal">Personal</option>
+            <option value="Commercial">Commercial</option>
+          </select>
+        </label>
+      </div>
+
+      <section class="kpi-grid" id="kpis" aria-label="KPI summary"></section>
+
+      <section class="cockpit-grid">
+        <article class="panel table-panel">
+          <div class="panel-title">
+            <p class="eyebrow">Priority queue</p>
+            <h3>Highest management attention</h3>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Segment</th>
+                  <th>Combined</th>
+                  <th>Quality</th>
+                  <th>Priority</th>
+                  <th>Recommended action</th>
+                </tr>
+              </thead>
+              <tbody id="priority-rows"></tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-title">
+            <p class="eyebrow">Signal mix</p>
+            <h3>Why these rows rise</h3>
+          </div>
+          <div id="signal-bars" class="signal-bars"></div>
+        </article>
+      </section>
     </section>
-    <section class="main-grid">
-      <article class="panel lead">
-        <p class="eyebrow">Semantic model</p>
-        <h2>Priority queue</h2>
-        <table>
-          <thead><tr><th>product portfolio</th><th>Signal</th><th>Risk</th><th>Next move</th></tr></thead>
-          <tbody>
-            <tr><td>Segment A</td><td>Source validation</td><td>High</td><td>Escalate with source check</td></tr>
-            <tr><td>Segment B</td><td>Self-service readiness</td><td>Medium</td><td>Test with clear owner</td></tr>
-            <tr><td>Segment C</td><td>Quality gap</td><td>Watch</td><td>Document metric definition</td></tr>
-          </tbody>
-        </table>
-      </article>
-      <article class="panel narrative">
-        <p class="eyebrow">What the analysis says</p>
-        <h2>Recommendations over screenshots</h2>
-        <p>The artifact is built around decisions, not dashboard decoration: each source table feeds a ranked queue, and each queue item resolves into a recommendation.</p>
-        <p>The strongest opportunities appear where performance upside, measurement quality, and operating readiness overlap.</p>
-      </article>
+
+    <section id="diagnostic" class="view" aria-labelledby="diagnostic-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Product diagnostic</p>
+          <h2 id="diagnostic-title">Explain the why behind the KPI movement</h2>
+        </div>
+        <label class="filter-control wide">
+          <span>Segment</span>
+          <select id="segment-select"></select>
+        </label>
+      </div>
+
+      <section class="diagnostic-grid">
+        <article class="panel selected-segment">
+          <p class="eyebrow">Selected segment</p>
+          <h3 id="selected-name">Loading</h3>
+          <p id="selected-action" class="large-note">Loading analysis.</p>
+          <dl id="selected-metrics" class="metric-list"></dl>
+        </article>
+
+        <article class="panel">
+          <p class="eyebrow">Driver profile</p>
+          <h3>Performance, quality, and service</h3>
+          <div id="driver-profile" class="driver-profile"></div>
+        </article>
+
+        <article class="panel span-two">
+          <p class="eyebrow">Market scan</p>
+          <h3>Context for the management story</h3>
+          <div id="market-trends" class="trend-list"></div>
+        </article>
+      </section>
     </section>
-    <section class="recommendations">
-      <article><b>01</b><h3>Validate</h3><p>Confirm source definitions before scaling the insight into recurring reporting.</p></article>
-      <article><b>02</b><h3>Prioritize</h3><p>Move the highest-value product portfolio segment into the next operating review.</p></article>
-      <article><b>03</b><h3>Automate</h3><p>Convert the queue into a stakeholder-ready digest for repeated decisions.</p></article>
+
+    <section id="governance" class="view" aria-labelledby="governance-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Data governance</p>
+          <h2 id="governance-title">Know when not to over-trust a dashboard</h2>
+        </div>
+      </div>
+
+      <section class="governance-grid">
+        <article class="panel table-panel">
+          <div class="panel-title">
+            <p class="eyebrow">Open checks</p>
+            <h3>Data-quality queue</h3>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Check</th>
+                  <th>Metric</th>
+                  <th>Source</th>
+                  <th>Failed rows</th>
+                  <th>Owner</th>
+                </tr>
+              </thead>
+              <tbody id="quality-rows"></tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="panel">
+          <p class="eyebrow">KPI definition</p>
+          <h3>Semantic model guardrails</h3>
+          <ul class="definition-list">
+            <li><b>Combined ratio</b><span>Loss ratio plus expense ratio, reviewed against a 96% management target.</span></li>
+            <li><b>KPI quality score</b><span>Weighted completeness, accuracy, timeliness, and ownership signal from source checks.</span></li>
+            <li><b>Priority score</b><span>Transparent rank using performance pressure, retention risk, growth signal, and governance risk.</span></li>
+            <li><b>Decision rule</b><span>Product action waits when source failures are high enough to change the recommendation.</span></li>
+          </ul>
+        </article>
+      </section>
+    </section>
+
+    <section id="brief" class="view" aria-labelledby="brief-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Management brief</p>
+          <h2 id="brief-title">Convert analysis into next actions</h2>
+        </div>
+      </div>
+
+      <section class="brief-grid">
+        <article class="panel">
+          <p class="eyebrow">Stakeholder requests</p>
+          <h3>Questions the analyst must answer</h3>
+          <div id="stakeholder-requests" class="request-list"></div>
+        </article>
+
+        <article class="panel table-panel">
+          <div class="panel-title">
+            <p class="eyebrow">Action plan</p>
+            <h3>Artifacts for follow-up</h3>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Question</th>
+                  <th>Owner</th>
+                  <th>Next artifact</th>
+                </tr>
+              </thead>
+              <tbody id="action-rows"></tbody>
+            </table>
+          </div>
+        </article>
+      </section>
     </section>
   </main>
+
+  <script type="module" src="src/app.js"></script>
 </body>
 </html>

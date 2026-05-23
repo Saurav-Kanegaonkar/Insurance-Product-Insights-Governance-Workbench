@@ -1,0 +1,97 @@
+product_id,product,line_of_business,state,channel,exposure_count,earned_premium,loss_ratio,expense_ratio,combined_ratio,retention_rate,new_business_growth,claims_satisfaction,kpi_quality_score,source_systems,data_steward
+PRD001,Personal Auto,Personal,NJ,Direct,18741,23387806,63.3,22.0,86.1,84.1,4.2,91.5,95.2,"policy_admin, claims, billing, quote_platform",Commercial Lines Ops
+PRD002,Personal Auto,Personal,NJ,Exclusive Agent,12726,20491960,72.4,22.0,95.2,81.7,7.6,88.2,88.9,"policy_admin, claims, billing, quote_platform",Product Analytics
+PRD003,Personal Auto,Personal,PA,Direct,22647,39708075,67.5,22.0,89.2,89.5,7.3,92.9,90.1,"policy_admin, claims, billing, quote_platform",Product Analytics
+PRD004,Personal Auto,Personal,PA,Exclusive Agent,11979,9655653,63.8,22.0,86.1,78.3,10.1,89.6,91.5,"policy_admin, claims, billing, quote_platform",Product Analytics
+PRD005,Personal Auto,Personal,NY,Direct,21813,27252174,69.5,22.0,92.8,82.9,6.4,86.5,85.6,"policy_admin, claims, billing, quote_platform",Claims Data
+PRD006,Personal Auto,Personal,NY,Exclusive Agent,14128,14230176,81.8,22.0,104.3,89.0,7.7,85.8,84.5,"policy_admin, claims, billing, quote_platform",BI Governance
+PRD007,Personal Auto,Personal,MD,Direct,20294,19259499,69.8,22.0,93.4,86.2,8.2,92.3,85.6,"policy_admin, claims, billing, quote_platform",BI Governance
+PRD008,Personal Auto,Personal,MD,Exclusive Agent,16656,30044075,72.8,22.0,93.6,79.3,16.3,93.2,77.1,"policy_admin, claims, billing, quote_platform",Product Analytics
+PRD009,Personal Auto,Personal,DE,Direct,15842,24106375,64.1,22.0,87.9,90.6,9.2,92.6,78.9,"policy_admin, claims, billing, quote_platform",BI Governance
+PRD010,Personal Auto,Personal,DE,Exclusive Agent,14235,8480061,57.4,22.0,78.3,82.2,4.2,89.6,84.2,"policy_admin, claims, billing, quote_platform",Product Analytics
+PRD011,Personal Auto,Personal,CT,Direct,14174,11647096,66.5,22.0,86.5,80.3,6.4,91.9,76.0,"policy_admin, claims, billing, quote_platform",Claims Data
+PRD012,Personal Auto,Personal,CT,Exclusive Agent,11899,22639972,72.1,22.0,92.4,86.0,8.1,87.2,82.1,"policy_admin, claims, billing, quote_platform",Claims Data
+PRD013,Homeowners,Personal,NJ,Direct,15559,30215626,81.6,24.0,104.4,84.9,4.3,89.2,84.6,"policy_admin, claims, catastrophe_vendor, billing",Claims Data
+PRD014,Homeowners,Personal,NJ,Exclusive Agent,13064,25891106,74.3,24.0,95.3,83.8,9.7,90.3,84.1,"policy_admin, claims, catastrophe_vendor, billing",Claims Data
+PRD015,Homeowners,Personal,PA,Direct,14012,20279645,87.5,24.0,112.2,85.0,7.9,74.6,84.0,"policy_admin, claims, catastrophe_vendor, billing",Claims Data
+PRD016,Homeowners,Personal,PA,Exclusive Agent,9829,6568904,78.8,24.0,101.8,87.2,3.6,87.5,82.4,"policy_admin, claims, catastrophe_vendor, billing",Claims Data
+PRD017,Homeowners,Personal,NY,Direct,11535,19219480,89.7,24.0,113.8,84.0,6.7,79.4,84.2,"policy_admin, claims, catastrophe_vendor, billing",Commercial Lines Ops
+PRD018,Homeowners,Personal,NY,Exclusive Agent,12273,16120837,86.1,24.0,107.4,82.7,9.2,82.7,78.1,"policy_admin, claims, catastrophe_vendor, billing",Commercial Lines Ops
+PRD019,Homeowners,Personal,MD,Direct,13140,22040582,86.9,24.0,110.1,87.2,10.6,82.0,83.1,"policy_admin, claims, catastrophe_vendor, billing",Claims Data
+PRD020,Homeowners,Personal,MD,Exclusive Agent,8351,5779443,88.2,24.0,111.9,84.9,-1.9,79.4,76.7,"policy_admin, claims, catastrophe_vendor, billing",Commercial Lines Ops
+PRD021,Homeowners,Personal,DE,Direct,8666,12625436,78.4,24.0,102.7,85.6,18.1,85.9,78.9,"policy_admin, claims, catastrophe_vendor, billing",Commercial Lines Ops
+PRD022,Homeowners,Personal,DE,Exclusive Agent,6541,9268276,82.5,24.0,105.0,91.3,7.7,80.9,80.4,"policy_admin, claims, catastrophe_vendor, billing",Claims Data
+PRD023,Homeowners,Personal,CT,Direct,6244,3509861,82.3,24.0,107.2,83.5,1.5,82.6,76.4,"policy_admin, claims, catastrophe_vendor, billing",Product Analytics
+PRD024,Homeowners,Personal,CT,Exclusive Agent,6359,10555666,87.6,24.0,109.6,87.4,18.0,84.7,75.5,"policy_admin, claims, catastrophe_vendor, billing",BI Governance
+PRD025,Renters,Personal,NJ,Direct,5848,9730829,58.8,28.0,86.7,96.0,4.3,92.7,89.8,"policy_admin, billing, customer_portal",Commercial Lines Ops
+PRD026,Renters,Personal,NJ,Exclusive Agent,3640,3063992,62.0,28.0,90.1,90.7,11.6,91.3,89.3,"policy_admin, billing, customer_portal",BI Governance
+PRD027,Renters,Personal,PA,Direct,5291,3010281,55.4,28.0,83.6,94.1,2.9,89.3,82.9,"policy_admin, billing, customer_portal",BI Governance
+PRD028,Renters,Personal,PA,Exclusive Agent,3543,6562731,56.3,28.0,86.2,85.8,6.2,88.2,88.3,"policy_admin, billing, customer_portal",Commercial Lines Ops
+PRD029,Renters,Personal,NY,Direct,4806,8496335,52.6,28.0,80.9,96.0,8.3,95.3,86.8,"policy_admin, billing, customer_portal",Claims Data
+PRD030,Renters,Personal,NY,Exclusive Agent,3049,4972435,61.6,28.0,89.6,87.8,3.1,94.2,82.1,"policy_admin, billing, customer_portal",BI Governance
+PRD031,Renters,Personal,MD,Direct,3421,2741331,59.7,28.0,88.6,90.7,1.7,89.5,84.9,"policy_admin, billing, customer_portal",Commercial Lines Ops
+PRD032,Renters,Personal,MD,Exclusive Agent,3197,4348116,54.7,28.0,83.5,94.4,8.4,91.3,78.0,"policy_admin, billing, customer_portal",Product Analytics
+PRD033,Renters,Personal,DE,Direct,3320,4742767,55.6,28.0,83.5,96.0,11.3,96.7,77.8,"policy_admin, billing, customer_portal",BI Governance
+PRD034,Renters,Personal,DE,Exclusive Agent,2582,2080796,56.8,28.0,84.5,89.6,-1.1,91.5,73.1,"policy_admin, billing, customer_portal",BI Governance
+PRD035,Renters,Personal,CT,Direct,3235,3836009,55.8,28.0,83.3,94.8,1.3,91.6,77.7,"policy_admin, billing, customer_portal",BI Governance
+PRD036,Renters,Personal,CT,Exclusive Agent,2767,4100902,58.0,28.0,86.3,93.5,9.3,91.0,68.8,"policy_admin, billing, customer_portal",BI Governance
+PRD037,Personal Umbrella,Personal,NJ,Direct,2116,3331015,61.0,18.0,78.7,96.0,-1.9,93.1,92.6,"policy_admin, claims, billing",BI Governance
+PRD038,Personal Umbrella,Personal,NJ,Exclusive Agent,2241,2382798,63.8,18.0,80.5,92.8,2.6,90.2,85.5,"policy_admin, claims, billing",Commercial Lines Ops
+PRD039,Personal Umbrella,Personal,PA,Direct,2303,3884445,62.1,18.0,81.3,93.1,-1.6,93.0,92.7,"policy_admin, claims, billing",Commercial Lines Ops
+PRD040,Personal Umbrella,Personal,PA,Exclusive Agent,2554,3767427,62.2,18.0,79.9,96.0,1.1,95.2,85.0,"policy_admin, claims, billing",Commercial Lines Ops
+PRD041,Personal Umbrella,Personal,NY,Direct,1923,2799119,66.1,18.0,83.8,94.1,9.2,92.6,88.9,"policy_admin, claims, billing",Commercial Lines Ops
+PRD042,Personal Umbrella,Personal,NY,Exclusive Agent,1980,3991239,67.0,18.0,84.3,87.5,11.4,93.8,81.7,"policy_admin, claims, billing",Commercial Lines Ops
+PRD043,Personal Umbrella,Personal,MD,Direct,1848,988796,59.5,18.0,75.8,94.7,9.5,91.7,78.2,"policy_admin, claims, billing",Product Analytics
+PRD044,Personal Umbrella,Personal,MD,Exclusive Agent,2113,2391535,61.7,18.0,78.0,90.2,5.1,86.2,76.8,"policy_admin, claims, billing",Product Analytics
+PRD045,Personal Umbrella,Personal,DE,Direct,2013,3576509,55.8,18.0,75.9,85.6,10.4,93.5,69.3,"policy_admin, claims, billing",Product Analytics
+PRD046,Personal Umbrella,Personal,DE,Exclusive Agent,1748,2097648,58.0,18.0,76.5,96.0,1.4,91.2,70.8,"policy_admin, claims, billing",Claims Data
+PRD047,Personal Umbrella,Personal,CT,Direct,1548,3096747,62.0,18.0,77.0,93.1,8.8,96.2,79.2,"policy_admin, claims, billing",Product Analytics
+PRD048,Personal Umbrella,Personal,CT,Exclusive Agent,1759,2707586,62.1,18.0,78.5,86.7,4.8,94.2,70.1,"policy_admin, claims, billing",BI Governance
+PRD049,Workers Compensation,Commercial,NJ,Direct,5641,71023581,63.4,25.0,86.3,92.1,5.0,89.9,94.4,"policy_admin, claims, payroll_audit, agency_feed",Claims Data
+PRD050,Workers Compensation,Commercial,NJ,Independent Agent,4325,54080226,70.4,25.0,93.4,87.4,14.5,92.6,79.3,"policy_admin, claims, payroll_audit, agency_feed",Claims Data
+PRD051,Workers Compensation,Commercial,PA,Direct,5829,28952636,68.2,25.0,92.8,80.9,14.4,94.6,83.7,"policy_admin, claims, payroll_audit, agency_feed",Claims Data
+PRD052,Workers Compensation,Commercial,PA,Independent Agent,3561,38496214,74.5,25.0,98.7,85.8,11.7,92.4,75.8,"policy_admin, claims, payroll_audit, agency_feed",Product Analytics
+PRD053,Workers Compensation,Commercial,NY,Direct,6850,64829481,73.0,25.0,100.7,93.1,4.2,86.6,89.0,"policy_admin, claims, payroll_audit, agency_feed",Claims Data
+PRD054,Workers Compensation,Commercial,NY,Independent Agent,3591,41521985,70.1,25.0,94.0,85.0,6.3,88.2,80.7,"policy_admin, claims, payroll_audit, agency_feed",Product Analytics
+PRD055,Workers Compensation,Commercial,MD,Direct,5338,65326165,70.8,25.0,96.3,90.9,2.3,90.1,82.1,"policy_admin, claims, payroll_audit, agency_feed",Product Analytics
+PRD056,Workers Compensation,Commercial,MD,Independent Agent,3998,40805257,65.6,25.0,90.3,89.6,10.4,89.4,81.1,"policy_admin, claims, payroll_audit, agency_feed",Commercial Lines Ops
+PRD057,Workers Compensation,Commercial,DE,Direct,3484,48392356,65.1,25.0,90.5,93.1,4.5,91.3,82.9,"policy_admin, claims, payroll_audit, agency_feed",Commercial Lines Ops
+PRD058,Workers Compensation,Commercial,DE,Independent Agent,3507,18017712,66.4,25.0,90.9,86.5,7.5,95.9,75.5,"policy_admin, claims, payroll_audit, agency_feed",BI Governance
+PRD059,Workers Compensation,Commercial,CT,Direct,4995,17102776,61.6,25.0,87.9,87.5,3.0,92.2,80.6,"policy_admin, claims, payroll_audit, agency_feed",Commercial Lines Ops
+PRD060,Workers Compensation,Commercial,CT,Independent Agent,2072,25456028,71.0,25.0,99.5,89.6,16.8,91.8,71.3,"policy_admin, claims, payroll_audit, agency_feed",Product Analytics
+PRD061,Commercial Auto,Commercial,NJ,Direct,4772,35889572,89.5,26.0,110.9,79.0,12.4,80.2,96.1,"policy_admin, claims, mvr_vendor, agency_feed",Product Analytics
+PRD062,Commercial Auto,Commercial,NJ,Independent Agent,2914,21266592,78.5,26.0,104.3,81.1,3.9,83.7,78.7,"policy_admin, claims, mvr_vendor, agency_feed",Product Analytics
+PRD063,Commercial Auto,Commercial,PA,Direct,3078,39698357,81.3,26.0,106.3,83.4,6.1,82.7,85.1,"policy_admin, claims, mvr_vendor, agency_feed",Claims Data
+PRD064,Commercial Auto,Commercial,PA,Independent Agent,3157,28432235,80.4,26.0,107.6,77.8,20.1,81.5,83.7,"policy_admin, claims, mvr_vendor, agency_feed",Commercial Lines Ops
+PRD065,Commercial Auto,Commercial,NY,Direct,4547,21485146,89.4,26.0,116.2,78.4,9.5,77.4,93.3,"policy_admin, claims, mvr_vendor, agency_feed",BI Governance
+PRD066,Commercial Auto,Commercial,NY,Independent Agent,1717,15464617,92.9,26.0,119.7,72.4,1.5,72,82.5,"policy_admin, claims, mvr_vendor, agency_feed",Claims Data
+PRD067,Commercial Auto,Commercial,MD,Direct,2924,21827235,82.8,26.0,109.1,76.3,9.3,79.2,76.5,"policy_admin, claims, mvr_vendor, agency_feed",BI Governance
+PRD068,Commercial Auto,Commercial,MD,Independent Agent,2013,21185491,82.9,26.0,106.8,76.3,7.6,84.4,73.7,"policy_admin, claims, mvr_vendor, agency_feed",Commercial Lines Ops
+PRD069,Commercial Auto,Commercial,DE,Direct,2566,19088665,85.4,26.0,109.4,80.0,1.9,80.5,82.9,"policy_admin, claims, mvr_vendor, agency_feed",Claims Data
+PRD070,Commercial Auto,Commercial,DE,Independent Agent,1324,11089381,76.2,26.0,103.7,84.3,18.0,84.4,73.3,"policy_admin, claims, mvr_vendor, agency_feed",Product Analytics
+PRD071,Commercial Auto,Commercial,CT,Direct,1753,23734355,79.6,26.0,103.9,82.7,13.2,86.7,75.6,"policy_admin, claims, mvr_vendor, agency_feed",Claims Data
+PRD072,Commercial Auto,Commercial,CT,Independent Agent,2121,13433833,91.0,26.0,118.3,73.9,14.0,76.5,71.1,"policy_admin, claims, mvr_vendor, agency_feed",Claims Data
+PRD073,Businessowners Policy,Commercial,NJ,Direct,1880,21102780,67.1,27.0,94.4,81.0,8.9,90.5,94.1,"policy_admin, claims, agency_feed, inspection_vendor",Commercial Lines Ops
+PRD074,Businessowners Policy,Commercial,NJ,Independent Agent,2017,18655559,66.5,27.0,92.6,90.4,9.1,93.0,79.6,"policy_admin, claims, agency_feed, inspection_vendor",Claims Data
+PRD075,Businessowners Policy,Commercial,PA,Direct,2006,7873569,67.7,27.0,95.4,87.2,11.3,90.8,88.2,"policy_admin, claims, agency_feed, inspection_vendor",BI Governance
+PRD076,Businessowners Policy,Commercial,PA,Independent Agent,1477,9998873,62.6,27.0,89.1,84.1,5.8,96.0,77.3,"policy_admin, claims, agency_feed, inspection_vendor",BI Governance
+PRD077,Businessowners Policy,Commercial,NY,Direct,1662,6688676,74.0,27.0,102.7,84.8,12.6,86.6,92.3,"policy_admin, claims, agency_feed, inspection_vendor",Product Analytics
+PRD078,Businessowners Policy,Commercial,NY,Independent Agent,1237,14402397,70.1,27.0,96.7,84.0,2.2,89.2,77.1,"policy_admin, claims, agency_feed, inspection_vendor",BI Governance
+PRD079,Businessowners Policy,Commercial,MD,Direct,1742,21533511,70.7,27.0,99.6,79.7,11.1,87.1,76.0,"policy_admin, claims, agency_feed, inspection_vendor",BI Governance
+PRD080,Businessowners Policy,Commercial,MD,Independent Agent,1553,8978023,67.0,27.0,92.1,83.3,14.2,93.3,66.3,"policy_admin, claims, agency_feed, inspection_vendor",Claims Data
+PRD081,Businessowners Policy,Commercial,DE,Direct,1779,12585098,55.3,27.0,84.1,77.8,-2.9,93.7,75.5,"policy_admin, claims, agency_feed, inspection_vendor",Commercial Lines Ops
+PRD082,Businessowners Policy,Commercial,DE,Independent Agent,1142,4205490,64.7,27.0,92.7,80.3,6.0,94.3,68.2,"policy_admin, claims, agency_feed, inspection_vendor",Product Analytics
+PRD083,Businessowners Policy,Commercial,CT,Direct,1266,9417680,62.9,27.0,89.3,82.3,3.1,91.0,81.5,"policy_admin, claims, agency_feed, inspection_vendor",Product Analytics
+PRD084,Businessowners Policy,Commercial,CT,Independent Agent,816,9020363,71.3,27.0,98.0,84.2,18.9,94.3,80.4,"policy_admin, claims, agency_feed, inspection_vendor",Product Analytics
+PRD085,Commercial Umbrella,Commercial,NJ,Direct,1179,15140509,85.5,19.0,101.8,82.1,3.4,87.7,86.8,"policy_admin, claims, agency_feed",BI Governance
+PRD086,Commercial Umbrella,Commercial,NJ,Independent Agent,834,6444583,79.6,19.0,99.8,79.4,4.8,89.8,78.9,"policy_admin, claims, agency_feed",Product Analytics
+PRD087,Commercial Umbrella,Commercial,PA,Direct,1104,12838656,77.2,19.0,94.6,82.0,8.1,91.5,89.1,"policy_admin, claims, agency_feed",Product Analytics
+PRD088,Commercial Umbrella,Commercial,PA,Independent Agent,510,5788053,75.7,19.0,94.2,83.4,1.9,91.9,75.3,"policy_admin, claims, agency_feed",BI Governance
+PRD089,Commercial Umbrella,Commercial,NY,Direct,713,8236244,82.1,19.0,106.0,80.9,3.1,81.8,80.3,"policy_admin, claims, agency_feed",Claims Data
+PRD090,Commercial Umbrella,Commercial,NY,Independent Agent,800,10149238,91.7,19.0,109.3,76.7,13.1,79.5,74.2,"policy_admin, claims, agency_feed",BI Governance
+PRD091,Commercial Umbrella,Commercial,MD,Direct,944,5275769,85.5,19.0,107.0,77.0,-0.5,81.8,88.8,"policy_admin, claims, agency_feed",Product Analytics
+PRD092,Commercial Umbrella,Commercial,MD,Independent Agent,601,2807751,85.4,19.0,106.0,81.4,15.6,83.9,67.6,"policy_admin, claims, agency_feed",Claims Data
+PRD093,Commercial Umbrella,Commercial,DE,Direct,986,8569535,74.9,19.0,94.1,81.4,9.3,93.4,79.6,"policy_admin, claims, agency_feed",Claims Data
+PRD094,Commercial Umbrella,Commercial,DE,Independent Agent,413,1783477,77.1,19.0,97.4,82.6,7.6,90.7,79.7,"policy_admin, claims, agency_feed",BI Governance
+PRD095,Commercial Umbrella,Commercial,CT,Direct,829,6859801,81.5,19.0,98.2,88.2,12.2,90.7,81.3,"policy_admin, claims, agency_feed",Commercial Lines Ops
+PRD096,Commercial Umbrella,Commercial,CT,Independent Agent,493,1866465,81.4,19.0,103.5,80.7,13.7,87.0,76.1,"policy_admin, claims, agency_feed",Claims Data

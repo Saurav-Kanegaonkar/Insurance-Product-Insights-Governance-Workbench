@@ -1,15 +1,17 @@
 # Executive Findings
 
-## What I analyzed
+The workbench flags 96 synthetic P&C product, state, and channel segments and ranks them by combined-ratio pressure, retention risk, KPI trust, and source-data readiness.
 
-I joined 5,040 daily metric rows, 760 source events, and 220 action candidates for P&C insurance product insights, KPI dashboards, and data governance.
+## Headline
 
-## Findings
+The highest-priority segment is Commercial Auto in CT through Independent Agent. It has a priority score of 145.4, a combined ratio of 118.3%, and a KPI quality score of 71.1.
 
-- The highest-priority product portfolio is PRO022 with a priority score of 98.39.
-- The top queue combines 49.9 average risk with 81.0 quality score and $858,979 estimated impact.
-- The strongest use case is turning repeated stakeholder questions into a ranked operating digest.
+## What management should ask
 
-## Recommendation
+1. Is the result a real product performance issue, a source-data issue, or both?
+2. Which KPI definition or source mapping must be clarified before a dashboard refresh?
+3. Which corrective action belongs in the next product operating review?
 
-Prioritize the top queue before scaling more dashboards. The project should help leaders decide which product portfolio risks need action, validation, or monitoring.
+## Recommended cadence
+
+Use the executive cockpit for the weekly management readout, the diagnostic view for the "why" conversation, and the governance queue for Data Engineer and business-process follow-up.

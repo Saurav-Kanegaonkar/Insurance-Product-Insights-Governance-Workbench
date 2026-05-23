@@ -1,0 +1,25 @@
+{
+  "generated_on": "2026-05-23",
+  "product_segments": 96,
+  "monthly_metric_rows": 1152,
+  "earned_premium": 1542501168,
+  "weighted_combined_ratio": 97.3,
+  "weighted_kpi_quality": 82.9,
+  "high_quality_checks": 63,
+  "top_priority": {
+    "product_id": "PRD072",
+    "product": "Commercial Auto",
+    "line_of_business": "Commercial",
+    "state": "CT",
+    "channel": "Independent Agent",
+    "earned_premium": 13433833,
+    "combined_ratio": 118.3,
+    "retention_rate": 73.9,
+    "new_business_growth": 14.0,
+    "claims_satisfaction": 76.5,
+    "kpi_quality_score": 71.1,
+    "open_high_quality_checks": 4,
+    "priority_score": 145.4,
+    "recommended_action": "Review agency growth with source mapping"
+  }
+}
